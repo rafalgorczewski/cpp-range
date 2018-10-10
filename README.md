@@ -15,7 +15,13 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char ** argv) {
 You can even use your own syntax!
 ```cpp
 for (auto i : 0_︻デ一->*10) {
-		std::cout << i << std::endl;
+	std::cout << i << std::endl;
 }
 ```
-Code can also be edited for use with `,` operator, which looks better. I prefer the arrow syntax tbh
+Code can also be edited for use with `,` operator, or any binary one.
+```cpp
+for (auto i : 0_,10) {
+	std::cout << i << std::endl;
+}
+```
+I prefer the arrow syntax anyway.
