@@ -1,6 +1,6 @@
-### cpp-range
+# cpp-range
 Syntactic sugar for range based for loop used with numbers.
-## Example
+### Example
 You can now use range based for loop with number ranges. Still, you can only use unsigned long long values because of language limitations.
 ```cpp
 #include <iostream>
