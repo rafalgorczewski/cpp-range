@@ -18,3 +18,4 @@ for (auto i : 0_︻デ一->*10) {
 		std::cout << i << std::endl;
 }
 ```
+Code can also be edited for use with `,` operator, which looks better. I prefer the arrow syntax tbh
