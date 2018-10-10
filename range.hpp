@@ -22,9 +22,7 @@ struct range_wrapper {
 
 		value_type m_value;
 
-		range_iterator() : range_iterator(0) {
-		}
-		range_iterator(value_type val) : m_value(val) {
+		range_iterator(value_type val = 0) : m_value(val) {
 		}
 
 		range_iterator & operator++() {
