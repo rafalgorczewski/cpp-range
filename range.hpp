@@ -1,5 +1,5 @@
-#ifndef RANGE_HPP
-#define RANGE_HPP
+#ifndef HQRP_RANGE_HPP
+#define HQRP_RANGE_HPP
 
 #include <cstddef>
 #include <iterator>
